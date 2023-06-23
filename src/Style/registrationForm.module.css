@@ -1,0 +1,85 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+.formContainer {
+  width: 900px;
+  /* height: 90vh; */
+  background-color: antiquewhite;
+  margin: 20px auto;
+  display: flex;
+  gap:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.form {
+  width: 50%;
+  height: 100%;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+img {
+  height: 100%;
+  width: 50%;
+}
+/*form style */
+h2{
+    color:#4263eb;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+h3{
+    color:#495057;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+label{
+    color: #868e96;
+    font: 12px;
+}
+input{
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    width: 100%;
+    
+}
+input::placeholder{
+    color:#adb5bd;
+}
+
+/* button style */
+.btn{
+    border:none;
+    padding:10px 15px;
+    color:white;
+    background-color: #e64980;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    width: 100%;
+}
+.btn:hover{
+    cursor: pointer;
+    color:#e64980;
+    background-color: white;
+}
+.formError{
+  font-size: 10px;
+  color:red;
+  margin:0;
+ }
